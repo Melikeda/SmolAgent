@@ -27,17 +27,15 @@ Key concepts covered in this repository include local LLM integration, custom to
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
+1. Clone the Repository
 ```bash
 git clone [https://github.com/Melikeda/SmolAgent.git](https://github.com/Melikeda/SmolAgent.git)
 cd SmolAgent
 
-### 2. Install Dependencies with
-
+2. Install Dependencies with
 uv sync
 
- ### 3. Start Ollama
-
+3. Start Ollama
 Ensure Ollama is running in the background and the model is pulled:
 ollama run qwen3.5:9b
 
