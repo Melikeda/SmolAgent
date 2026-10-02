@@ -1,0 +1,23 @@
+[project]
+name = "smolagnet"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Melike Kulahci", email = "128312380+Melikeda@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "ipywidgets>=8.1.9",
+    "jupyter>=1.1.1",
+    "ollama>=0.6.3",
+    "smolagents[litellm]>=1.26.0",
+    "tokenizers>=0.19.0",
+]
+
+[project.scripts]
+smolagnet = "smolagnet:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
